@@ -147,11 +147,15 @@ span {
     }
 
     .time-interval-container {
-        /* border: 1px solid black; */
-        height: 300px;
+        /*border: 1px solid black;
+        */height: 300px;
         overflow: scroll;
         border: none;
         margin-bottom: 25%;
         transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
     }
 }
